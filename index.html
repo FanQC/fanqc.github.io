@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>·¶Ç¬´Ï</title>
-</head>
-<body>
-ÔÚÒ¹Àï·­Ç½
-</body>
-</html>
+---
+layout: default
+title: Home
+---
+
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
